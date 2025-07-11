@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,7 +136,7 @@ function getFullUrl($path) {
                 gallery.appendChild(img);
             });
         }
-
+//filter photos functionality
         function filterPhotos() {
             const location = locationFilter.value;
             const county = countyFilter.value;
